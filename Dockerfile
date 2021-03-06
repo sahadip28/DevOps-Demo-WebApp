@@ -1,4 +1,4 @@
-FROM tomcat:8.0.20-jre8
+FROM tomcat:latest
 ENV DB_HOST localhost
 ENV DB_USER postgres
 ENV DB_PASSWORD password
