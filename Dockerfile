@@ -1,4 +1,4 @@
-FROM tomcat:8.0.20-jre8
+FROM sahadip28/ubuntu-tomcat9-postgresql12
 COPY ./target/*.war /usr/local/tomcat/webapps
 EXPOSE 8080
 EXPOSE 8081
