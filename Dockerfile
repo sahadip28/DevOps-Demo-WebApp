@@ -1,5 +1,5 @@
 FROM tomcat:latest
-ENV DB_HOST localhost
+#ENV DB_HOST localhost
 #ENV DB_USER postgres
 #ENV DB_PASSWORD password
 COPY ./target/*.war /usr/local/tomcat/webapps
