@@ -1,7 +1,7 @@
 FROM tomcat:latest
 ENV DB_HOST localhost
-ENV DB_USER postgres
-ENV DB_PASSWORD password
+#ENV DB_USER postgres
+#ENV DB_PASSWORD password
 COPY ./target/*.war /usr/local/tomcat/webapps
 EXPOSE 8080
 EXPOSE 8081
